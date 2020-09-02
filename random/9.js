@@ -1,0 +1,1 @@
+/* Write a fuction that accepts a string. the function  */
