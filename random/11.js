@@ -1,3 +1,4 @@
+/* write a function that accepts a positive number N. the function should console log apyramid shap with N levels using the # character. */
 const pyramid = (n) => {
   for (let i = 0; i < n; i++) {
     let str = "";
@@ -8,7 +9,7 @@ const pyramid = (n) => {
     let l = 1;
     let k = 0;
     while (k < i + 1) {
-      res = "k".repeat(k + l);
+      res = "#".repeat(k + l);
       k++;
       l++;
     }
@@ -16,4 +17,4 @@ const pyramid = (n) => {
   }
 };
 
-pyramid(3);
+pyramid(5);
